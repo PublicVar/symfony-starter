@@ -17,3 +17,11 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret: ThisTokenIsNotSoSecretChangeIt
+
+    # Sonata Admin Options
+    sonata_admin.title:             Project
+    sonata_admin.logo_title:        /bundles/sonataadmin/logo_title.png
+
+    # Sonata User Options
+    sonata_user.google_authenticator.server:  demo.project.com
+
